@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Aspiring software developer and engineer.">
+	<link rel="stylesheet" href="website_page.css">
+	<link href="https://fonts.googleapis.com/css2?family=BioRhyme&display=swap" rel="stylesheet">
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Christopher Smith || Software Developer and Engineer</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'GA_MEASUREMENT_ID');
+	</script>
+</head>
+<body>
+	<header>
+		<div class="top_nav">
+			<a class="navbar_links" href="#projectsHeading">Portfolio</a>
+			<a class="navbar_links" href="#media_buttons">Contact</a>
+			<a class="navbar_links" href="#aboutMeTitle">About Me</a>
+			<a class="navbar_links" href="">Resume</a>
+		</div>
+	</header>
+		<h1 class="nameTitle">Christopher Smith</h1>
+		<h1 class="jobTitle">Software Engineer</h1>
+
+		<div id="skills_label1">SKILLS</div>
+					<div id="lang_label1">Languages</div>
+					<div class="media_logos">
+<div class="images"><img src="https://img.icons8.com/dotty/144/000000/html-filetype.png" /></div>
+<div class="images"><img src="https://img.icons8.com/metro/144/000000/css.png" /></div>
+<div class="images"><img src="Personal Website/images/Javascript Logo.png" /></div>
+</div>
+<div id="skills_label2">Liberies & Frameworks</div>
+					<div class="media_logos">
+						<div class="images"><img src="https://img.icons8.com/material-rounded/144/000000/js.png" /></div>
+						<div class="images"><img src="https://img.icons8.com/color/144/000000/angularjs.png" /></div>
+						<div class="images"><img src="Personal Website/images/JS REACT.png" /></div>
+						</div>
+						
+			<div class="projectsHeading" id="projectsHeading">Projects that I have worked on or built</div>
+		<div class="carousel slide" data-ride="carousel" data-interval="6000">
+			<div class="project">
+			<img class="projectImage" src="Website images/JS Doc.PNG" alt="" height="300" width="400" srcset="url size"/>
+				<span class="tech_used">Technologies used: HTML, CSS, Javascript</span>
+			</div>
+				<div class="project">
+			<img class="projectImage" src="Website images/Product Survey.PNG" alt="" height="300" width="400" srcset=""/>
+				<span class="tech_used">Technologies used: HTML, CSS, Javascript</span>
+				</div>
+			</div>
+			
+		<p class="aboutMeTitle" id="aboutMeTitle">About Me</p>
+		<div class="about_me_container">
+			<img style="float: right; margin: 0px 15px 15px 0px; margin-right: 150px; " src="Pages/IMG_4852.jpg" width="40%" height="70%"/>
+		<p class="about_me">Hello! My name is Christopher.I am based in Detroit Michigan, and I enjoy technology and
+				building things that live on
+				the internet. My goal right now is to transition into web and application development. Ever since I was a
+				kid, I
+				have always been fascinated and obsessed with technology and the web. I created my first "website” using
+				MySpace. It
+				was not the best looking website, but I was more interested in learning about the inner workings of the webpage</p>
+		</div>
+		<textarea name="text box to contact" id="text_box" cols="115" rows="10" style="margin-top: 8%;"></textarea>
+					<div id="emailbtn1"><a href="email:Christipher.Smith08@Gmail.com" class="myEmail">Get In Touch</a></div>
+	<footer>
+		<div class="media_buttons" id="media_buttons">
+			<a><img class="media_button" src="https://img.icons8.com/color/144/000000/linkedin-circled.png" /></a>
+			<a><img class="media_button"  src="https://img.icons8.com/color/144/000000/github--v1.png" /></a>
+			<a><img class="media_button"  src="https://img.icons8.com/cute-clipart/144/000000/twitter.png" /></a>
+		</div>
+		<div>
+			<div id="designed_by">Design Dy: Christopher Smith&copy</div>
+		</div>
+	</footer>
+</body>
+<script>
+	window.onscroll = function () { myFunction() };
+
+	function myFunction() {
+		var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+		var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+		var scrolled = (winScroll / height) * 100;
+		document.getElementById("progBar").style.width = scrolled + "%";
+	}
+</script>
+
+</html>
